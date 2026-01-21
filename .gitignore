@@ -1,0 +1,127 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ============================================
+# DATA FILES (sensible en prod)
+# ============================================
+data/raw/
+data/clean/
+data/features/
+data/backtest/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# ============================================
+# LOGS & CACHE
+# ============================================
+logs/
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================
+# SECRETS & CONFIGURATION
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+config.local.py
+credentials.json
+
+# ============================================
+# OS GENERATED
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# STREAMLIT
+# ============================================
+.streamlit/secrets.toml
+
+# ============================================
+# MODELS & OUTPUTS (volumineux)
+# ============================================
+models/*.pkl
+models/*.joblib
+models/*.h5
+outputs/
+reports/
+*.pdf
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
