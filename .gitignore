@@ -54,20 +54,8 @@ venv.bak/
 .ropeproject
 
 # ============================================
-# DATA FILES (sensible en prod)
-# ============================================
-data/raw/
-data/clean/
-data/features/
-data/backtest/
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.pickle
-*.pkl
-*.h5
-*.hdf5
+# DATA FILES (ignorer le contenu, garder la structure)
+
 
 # ============================================
 # LOGS & CACHE
@@ -110,13 +98,7 @@ desktop.ini
 
 # ============================================
 # MODELS & OUTPUTS (volumineux)
-# ============================================
-models/*.pkl
-models/*.joblib
-models/*.h5
-outputs/
-reports/
-*.pdf
+# ============================================d
 
 # ============================================
 # TEMPORARY FILES
